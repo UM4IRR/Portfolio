@@ -21,7 +21,7 @@ const educationData = [
   {
     degree: "SSC (Matriculation)",
     school: "Garrison Academy Senior Campus",
-    location: "GWA Cantt",
+    location: "Gujranwala Cantt",
     duration: "2017 - 2019",
     // details: "Science group studies with a focus on foundational engineering concepts."
   }
