@@ -20,13 +20,13 @@ const services = [
     title: "Database Management",
     icon: <Database className="w-8 h-8 text-brand-teal" />,
     description: "Creating robust schemas and optimized queries for complex data relationships with both NoSQL and SQL databases.",
-    tools: ["MongoDB", "MySQL", "Database Design", "Data Modeling"],
+    tools: ["MongoDB", "Database Design"],
   },
   {
-    title: "Version Control & DevOps",
+    title: "Version Control",
     icon: <MonitorSmartphone className="w-8 h-8 text-brand-teal" />,
     description: "Managing code repositories, collaborating efficiently with teams, and ensuring smooth deployment workflows and version management.",
-    tools: ["Git", "GitHub", "HTML", "CSS"],
+    tools: ["Git", "GitHub"],
   }
 ];
 

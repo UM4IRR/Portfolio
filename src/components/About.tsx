@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const skills = ["React", "Next.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB", "MySQL", "Git"];
+const skills = ["React", "Next.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB", "Git"];
 
 export default function About() {
   return (
@@ -36,12 +36,7 @@ export default function About() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="flex-1 w-full space-y-12"
         >
-          <div className="flex flex-col gap-2">
-            <span className="text-7xl font-black text-brand-teal leading-none drop-shadow-[0_0_15px_rgba(20,184,166,0.3)]">
-              3+
-            </span>
-            <span className="text-xl font-medium tracking-wide">Years of Learning</span>
-          </div>
+
 
           <div className="space-y-6">
             <h4 className="text-lg font-semibold tracking-wide border-b border-white/10 pb-4">Core Stack</h4>
