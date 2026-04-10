@@ -18,7 +18,7 @@ const experiences = [
   {
     year: "07/2023 - 08/2023",
     role: "Digital Marketing Intern",
-    company: "SCO(AJSK)",
+    company: "SCO(AJ&K)",
     description: "Gained expertise in digital marketing, e-commerce strategies, and entrepreneurship, including campaign implementation, business modeling, customer engagement, and market analysis.",
   }
 ];
@@ -49,12 +49,12 @@ export default function Experience() {
           >
             {/* Glowing dot indicator */}
             <div className="absolute -left-1.25 top-1.5 w-2.25 h-2.25 bg-brand-teal rounded-full shadow-[0_0_15px_rgba(20,184,166,0.8)]" />
-            
+
             <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-2">
               <h4 className="text-2xl font-bold text-white mb-1 sm:mb-0">{exp.role}</h4>
               <span className="text-brand-teal font-mono text-sm tracking-wider">{exp.year}</span>
             </div>
-            
+
             <h5 className="text-lg text-white/50 font-medium mb-4">{exp.company}</h5>
             <p className="text-foreground/70 font-light leading-relaxed max-w-3xl">
               {exp.description}

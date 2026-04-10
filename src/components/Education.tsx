@@ -16,14 +16,14 @@ const educationData = [
     school: "Punjab College For Boys",
     location: "Sahiwal",
     duration: "2019 - 2021",
-    details: "Pre-Engineering studies with a focus on Mathematics, Physics, and Chemistry."
+    // details: "Pre-Engineering studies with a focus on Mathematics, Physics, and Computer."
   },
   {
     degree: "SSC (Matriculation)",
     school: "Garrison Academy Senior Campus",
     location: "GWA Cantt",
     duration: "2017 - 2019",
-    details: "Science group studies with a focus on foundational engineering concepts."
+    // details: "Science group studies with a focus on foundational engineering concepts."
   }
 ];
 
@@ -53,24 +53,24 @@ export default function Education() {
           >
             {/* Subtle hover gradient background */}
             <div className="absolute inset-0 bg-linear-to-br from-brand-teal/0 to-brand-teal/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            
+
             <div className="relative z-10">
               <div className="flex items-start gap-6 mb-4">
                 <div className="bg-black/40 w-16 h-16 rounded-xl flex items-center justify-center border border-white/5 shrink-0 group-hover:scale-110 transition-transform duration-500 group-hover:shadow-[0_0_20px_rgba(20,184,166,0.3)]">
                   <GraduationCap className="w-8 h-8 text-brand-teal" />
                 </div>
-                
+
                 <div className="flex-1">
                   <h4 className="text-2xl md:text-3xl font-bold text-white mb-1">{edu.degree}</h4>
                   <h5 className="text-lg text-brand-teal font-medium mb-1">{edu.school}</h5>
                   <p className="text-white/50">{edu.location}</p>
                 </div>
               </div>
-              
+
               <div className="mb-6 ml-24">
                 <span className="text-brand-teal font-mono text-sm tracking-wider">{edu.duration}</span>
               </div>
-              
+
               <p className="text-foreground/70 leading-relaxed font-light max-w-3xl ml-24">
                 {edu.details}
               </p>
