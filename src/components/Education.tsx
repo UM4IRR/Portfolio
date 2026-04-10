@@ -8,8 +8,22 @@ const educationData = [
     degree: "BS Software Engineering",
     school: "National University of Science and Technology (NUST)",
     location: "Islamabad",
-    duration: "10/2022 - Present",
+    duration: "2022 - Present",
     details: "Currently pursuing a degree in Software Engineering with focus on full-stack development, system design, and modern web technologies."
+  },
+  {
+    degree: "HSSC (Intermediate)",
+    school: "Punjab College For Boys",
+    location: "Sahiwal",
+    duration: "2019 - 2021",
+    details: "Pre-Engineering studies with a focus on Mathematics, Physics, and Chemistry."
+  },
+  {
+    degree: "SSC (Matriculation)",
+    school: "Garrison Academy Senior Campus",
+    location: "GWA Cantt",
+    duration: "2017 - 2019",
+    details: "Science group studies with a focus on foundational engineering concepts."
   }
 ];
 

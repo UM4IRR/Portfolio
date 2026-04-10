@@ -41,12 +41,12 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black font-sans tracking-tight text-white drop-shadow-2xl leading-tight mb-3">
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black font-sans tracking-tight text-foreground/90 drop-shadow-2xl leading-tight mb-3">
           <SplitText text="M Humair Razaq" />
         </h1>
 
         <h2 className="text-4xl md:text-6xl lg:text-7xl font-black font-sans tracking-tight leading-tight mb-10">
-          <span className="text-transparent bg-clip-text bg-linear-to-r from-white via-brand-teal to-brand-teal">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-foreground via-brand-teal to-brand-teal">
             <SplitText text="Full Stack Engineer" />
           </span>
         </h2>
