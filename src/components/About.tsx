@@ -34,25 +34,28 @@ export default function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex-1 w-full space-y-12"
+          className="flex-1 w-full"
         >
-
-
-          <div className="space-y-6">
-            <h4 className="text-lg font-semibold tracking-wide border-b border-white/10 pb-4">Core Stack</h4>
-            <div className="flex flex-wrap gap-3">
-              {skills.map((skill, i) => (
-                <motion.span
-                  key={skill}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: i * 0.1 }}
-                  className="px-4 py-2 border border-brand-teal/20 rounded-full text-sm font-medium bg-brand-teal/5 text-brand-teal backdrop-blur-sm"
-                >
-                  {skill}
-                </motion.span>
-              ))}
+          <div className="space-y-8 md:pt-20">
+            <div className="glass-card p-6 rounded-2xl border border-white/5 bg-white/5 backdrop-blur-md">
+              <h4 className="text-lg font-semibold tracking-wide border-b border-white/10 pb-4 mb-6 flex items-center gap-2">
+                <span className="w-2 h-2 bg-brand-teal rounded-full animate-pulse" />
+                Core Stack
+              </h4>
+              <div className="flex flex-wrap gap-3">
+                {skills.map((skill, i) => (
+                  <motion.span
+                    key={skill}
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: i * 0.1 }}
+                    className="px-4 py-2 border border-brand-teal/20 rounded-full text-sm font-medium bg-brand-teal/10 text-brand-teal hover:bg-brand-teal hover:text-white transition-colors duration-300"
+                  >
+                    {skill}
+                  </motion.span>
+                ))}
+              </div>
             </div>
           </div>
         </motion.div>
